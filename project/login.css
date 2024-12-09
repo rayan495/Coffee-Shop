@@ -1,0 +1,89 @@
+body{
+ background-color: black;
+}
+
+.message{
+ position: sticky;
+ top:0;
+ left:0;
+ right:0;
+ padding: 15px 10px;
+ background-color: white;
+ text-align: center;
+ z-index: 1000;
+ box-shadow: var(--box-shadow);
+ font-size: 20px;
+ text-transform: capitalize;
+ cursor: pointer;
+}
+
+.btn,
+.delete-btn,
+.option-btn{
+ color:white;
+ background-color:#CD853F;
+ font-family: 'Raleway',sans-serif;
+ display: inline-block;
+ text-decoration: none;
+ padding: 10px 30px;
+ cursor: pointer;
+ font-size: 18px;
+ border-radius: 5px;
+ text-transform: uppercase;
+ transition: 0.4s;
+}
+
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+ background-color:black;
+}
+
+.form-container {
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+}
+
+.form-container form{
+ width: 500px;
+ border-radius:5px;
+ border: solid;
+ padding: 40px;
+ text-align: center;
+ background-color: white;
+}
+
+.form-container form h3{
+ font-size: 30px;
+ margin-bottom: 30px;
+ text-transform: uppercase;
+ color:#CD853F;
+}
+
+.form-container form .box{
+ width: 100%;
+ border-radius: 5px;
+ border: solid;
+ padding: 12px 14px;
+ font-size: 18px;
+ margin: 10px 0;
+}
+
+.form-container form p{
+ margin-top: 20px;
+ font-size: 20px;
+ color: black;
+}
+
+.form-container form p a{
+ color: red;
+}
+
+.form-container form p a:hover{
+ text-decoration: underline;
+}
+	
+	

@@ -1,0 +1,43 @@
+.progress-label-left{
+ float: left;
+ margin-right: 0.5em;
+ line-height: 1em;
+}
+
+.progress-label-right{
+ float: right;
+ margin-left: 0.3em;
+ line-height: 1em;
+}
+
+.star-light{
+ color:#e9ecef;
+}
+
+.container1{
+ padding:0 20px;
+ margin:0 auto;
+ max-width: 1200px;
+ padding-bottom: 70px;
+}
+
+.container1 .user-profile{
+ padding: 20px;
+ text-align: center;
+ border: solid;
+ background-color: white;
+ box-shadow: var(--box-shadow);
+ border-radius: 5px;
+ margin:20px auto;
+ max-width: 500px;
+} 
+
+.container1 .user-profile p{
+ margin-bottom: 10px;
+ font-size: 25px;
+ color: black;
+}
+
+.container1 .user-profile p span{
+ color: #CD853F;
+}

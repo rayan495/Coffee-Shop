@@ -1,0 +1,179 @@
+body{
+ overflow-x: hidden;
+ height: 100vh;
+ background-color: black;
+}
+
+.contact .row{
+ display: flex;
+ align-items: center;
+ background: black;
+ flex-wrap: wrap;
+ gap: 1rem;
+}
+
+.contact .row .map{
+ object-fit: cover;
+ position:relative;
+ height:450px;
+ width:500px;
+ top:150px;
+ left:50px;
+}
+
+.contact .row form{
+ flex: 1 1 45rem;
+ padding: 5rem 2rem;
+ text-align: center;
+ position:relative;
+}
+
+.contact .row form  .inputBox{
+ display: flex;
+ align-items: center;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ background:black;
+ border: 2px solid red;
+}
+
+.ptr5{
+ color: brown;
+ font-size: 70px;
+}
+
+input[type=text]{
+ background-color: black;
+ color: white;
+ width: 40%;
+ height:40px;
+ border: 2px solid white;
+ position:relative;
+ top:-350px;
+ left:200px;
+}
+
+input[type=email] {
+ background-color: black;
+ color: white;
+ width: 40%;
+ height:40px;
+ border: 2px solid white;
+ position:relative;
+ top:-320px;
+ left:200px;
+}
+
+input[type=number] {
+ background-color: black;
+ color: white;
+ width: 40%;
+ height:40px;
+ border: 2px solid white;
+ position:relative;
+ top:-290px;
+ left:200px;
+}
+
+.text {
+ background-color: black;
+ color: white;
+ width: 40%;
+ height:140px;
+ border: 2px solid white;
+ position:relative;
+ top:-260px;
+ left:200px;
+}
+
+.contact .row form  .inputBox input{
+ width: 100%;
+ padding: 2rem;
+ font-size: 1.7rem;
+ color: #fff;
+ text-rendering: none;
+}
+
+.btn3{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ top:-960px;
+ left:1000px;
+}
+
+.btn1{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ top:-960px;
+ left:980px;
+}
+
+.btn{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ left:200px;
+ top:-240px;
+}
+
+.btn2{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ top:-960px;
+ left:990px;
+}
+
+.navbar a:hover{
+ background-color: #fff;
+ color: #000 ;
+} 
+
+.heading{
+ text-align:center;
+ color: #CD853F;
+ font-size: 50px;
+ text-transform: uppercase;
+ position: absolute;
+ left:500px;
+ top:10px;
+}
+                        

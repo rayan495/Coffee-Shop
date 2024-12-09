@@ -1,0 +1,134 @@
+body{
+ overflow-x: hidden;
+ height: 100vh;
+ background-color:black;
+}
+
+.about .row .image{
+ flex: 1 1 45rem;
+}
+
+.about .row .image img{
+ margin-bottom:40%;
+ padding:0;
+ position: relative;
+ bottom:-30px;
+ left:-30px;
+ display: block;
+ width: 40%;
+ height:400px;
+}
+
+.heading{
+ text-align:center;
+ color: #CD853F;
+ font-size: 70px;
+ text-transform: uppercase;
+}
+
+.prd{
+ color:white;
+ font-size:40px;
+ text-indent: 10px;
+ line-height:20px;
+ position: relative;
+ left: 500px;
+ top:-900px;
+ font-size:15px;
+}
+
+.navbar-menu a{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+}
+      
+.navbar-menu a:hover{
+ background-color: #fff;
+ color: #000 ;
+}
+
+.btn1{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ top: -1520px;
+ left: 980px;
+}
+  
+.btn2{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ top: -1520px;
+ left: 990px;
+}
+.btn3{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ top: -1520px;
+ left:1000px;
+}
+
+.navbar a:hover{
+ background-color: #fff;
+ color: #000 ;
+}
+
+.btn{
+ color: white;
+ background-color:#CD853F;
+ font-size: 13px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: 100;
+ padding: 12px 15px;
+ border-radius: 2px;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.4s;
+ position:relative;
+ top: -890px;
+ left: 700px;
+}
+
+.content a:hover{
+ background-color: #fff;
+ color: #000 ;
+}
